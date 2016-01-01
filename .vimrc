@@ -1,14 +1,6 @@
 call plug#begin('~/.vim/plugged/')
 
-Plug 'StanAngeloff/php.vim'
-Plug 'pangloss/vim-javascript'
-
 Plug 'mattn/emmet-vim'
-Plug 'honza/vim-snippets'
-Plug 'SirVer/ultisnips'
-
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-surround'
 Plug 'itchyny/lightline.vim'
 
 call plug#end()
