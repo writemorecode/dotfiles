@@ -1,6 +1,6 @@
 #!/bin/sh
 
-mkdir -p .config/nvim/colors
+mkdir -p ~/.config/nvim/colors
 echo "Created Neovim directories"
 
 ln -s /home/gustav/dotfiles/.vimrc /home/gustav/.config/nvim/init.vim
@@ -12,6 +12,7 @@ echo "vim-plug installed"
 
 git clone --quiet https://github.com/tomasr/molokai
 cp molokai/colors/molokai.vim .config/nvim/colors
+rm -rf molokai
 echo "Molokai colorscheme downloaded and installed"
 
 echo "All done."
