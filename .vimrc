@@ -16,7 +16,7 @@ set laststatus=2
 
 " Color
 syntax enable
-colorscheme gotham256
+colorscheme molokai
 
 " Tabbing and spacing
 filetype indent on
