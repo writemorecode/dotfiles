@@ -12,7 +12,6 @@ set showcmd
 set cursorline
 set lazyredraw
 set showmatch
-set laststatus=2
 
 " Color
 syntax enable
@@ -25,17 +24,10 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
-set backspace=2
-set backspace=indent,eol,start
 
 " Movement
 nnoremap j gj
 nnoremap k gk
-
-" Searching
-set wildmenu
-set incsearch
-set hlsearch
 
 " Folding
 set foldenable
@@ -51,7 +43,6 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
 
 " Encoding
-set encoding=utf-8 " The encoding that's displayed
 set fileencoding=utf-8 " The encoding that's written to file
 
 " Keymaps
