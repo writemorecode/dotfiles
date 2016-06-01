@@ -36,11 +36,7 @@ set foldnestmax=10
 set foldmethod=indent
 
 " Backups
-set backup
-set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set backupskip=/tmp/*,/private/tmp/*
-set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set writebackup
+set nobackup
 
 " Encoding
 set fileencoding=utf-8 " The encoding that's written to file
