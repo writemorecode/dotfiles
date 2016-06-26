@@ -67,3 +67,9 @@ nnoremap ^ <nop>
 
 " highlight last inserted text
 nnoremap gV `[v`]
+
+" netrw settings
+let g:netrw_banner = 0
+let g:netrw_winsize = 25
+nnoremap - :Lex<CR>
+
