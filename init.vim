@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged/')
 
 Plug 'mattn/emmet-vim'
 Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
